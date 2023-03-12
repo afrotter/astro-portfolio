@@ -17,10 +17,10 @@ const Hero = () => (
         <>
           I am a web developer from Cape Town, South Africa. I'm an IT
           professional of 4 years, currently working on web-based projects and
-          messing around with data.{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          messing around with data in my free time.{' '}
+          {/* <a className="text-cyan-400 hover:underline" href="/">
             consectetur
-          </a>
+          </a> */}
         </>
       }
       avatar={
