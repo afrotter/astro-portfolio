@@ -20,8 +20,8 @@ const ProjectList = () => (
         description="Create a QR code in seconds. Simply insert a URL and hit the generate button."
         link="https://github.com/afrotter/qrcode_generator"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          src: '/assets/images/QR_color.png',
+          alt: 'QR Code',
         }}
         category={
           <>
@@ -33,7 +33,10 @@ const ProjectList = () => (
         name="Loadshedding Checker"
         description="Don't get caught in the dark. Use this simple web app to check the current stage of loadshedding and adjust your schedule accordingly!"
         link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        img={{
+          src: '/assets/images/LS_color.png',
+          alt: 'Loadshedding Checker',
+        }}
         category={
           <>
             <Tags color={ColorTags.BLUE}>React</Tags>
@@ -46,7 +49,10 @@ const ProjectList = () => (
         name="My Portfolio"
         description="It's staring you right in the face."
         link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        img={{
+          src: '/assets/images/portfolio.png',
+          alt: 'My Portfolio',
+        }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
