@@ -32,7 +32,7 @@ const ProjectList = () => (
       <Project
         name="Loadshedding Checker"
         description="Don't get caught in the dark. Use this simple web app to check the current stage of loadshedding and adjust your schedule accordingly!"
-        link="/"
+        link="https://github.com/afrotter/react-loadshed"
         img={{
           src: '/assets/images/LS_color.png',
           alt: 'Loadshedding Checker',
@@ -48,7 +48,7 @@ const ProjectList = () => (
       <Project
         name="My Portfolio"
         description="It's staring you right in the face."
-        link="/"
+        link="https://github.com/afrotter/astro-portfolio"
         img={{
           src: '/assets/images/portfolio.png',
           alt: 'My Portfolio',
