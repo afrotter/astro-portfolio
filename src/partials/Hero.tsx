@@ -23,14 +23,6 @@ const Hero = () => (
           </a> */}
         </>
       }
-      avatar={
-        <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
-          alt="Avatar image"
-          loading="lazy"
-        />
-      }
       socialButtons={
         <>
           <a href="https://twitter.com/afrotterio" target="_blank">
